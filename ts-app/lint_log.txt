@@ -1,0 +1,40 @@
+
+> ts-app@0.1.0 lint
+> eslint
+
+
+C:\Users\AntoniKmuk\Desktop\Klasa 3\FullStack\ts-project-FS\ts-app\src\app\analyze\page.tsx
+  11:10  warning  'Label' is defined but never used         @typescript-eslint/no-unused-vars
+  15:10  warning  'Separator' is defined but never used     @typescript-eslint/no-unused-vars
+  17:10  warning  'Check' is defined but never used         @typescript-eslint/no-unused-vars
+  18:10  warning  'toast' is defined but never used         @typescript-eslint/no-unused-vars
+  45:40  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\AntoniKmuk\Desktop\Klasa 3\FullStack\ts-project-FS\ts-app\src\app\page.tsx
+    5:10  warning  'Card' is defined but never used             @typescript-eslint/no-unused-vars
+    5:16  warning  'Cardheader' is defined but never used       @typescript-eslint/no-unused-vars
+    5:28  warning  'CardTitle' is defined but never used        @typescript-eslint/no-unused-vars
+    5:39  warning  'CardDescription' is defined but never used  @typescript-eslint/no-unused-vars
+    5:56  warning  'CardContent' is defined but never used      @typescript-eslint/no-unused-vars
+  120:66  error    Unexpected any. Specify a different type     @typescript-eslint/no-explicit-any
+
+C:\Users\AntoniKmuk\Desktop\Klasa 3\FullStack\ts-project-FS\ts-app\src\app\team-builder\page.tsx
+   4:10  warning  'Card' is defined but never used         @typescript-eslint/no-unused-vars
+   4:16  warning  'CardContent' is defined but never used  @typescript-eslint/no-unused-vars
+   4:29  warning  'CardHeader' is defined but never used   @typescript-eslint/no-unused-vars
+   4:41  warning  'CardTitle' is defined but never used    @typescript-eslint/no-unused-vars
+   8:22  warning  'ROLES' is defined but never used        @typescript-eslint/no-unused-vars
+  12:10  warning  'toast' is defined but never used        @typescript-eslint/no-unused-vars
+
+C:\Users\AntoniKmuk\Desktop\Klasa 3\FullStack\ts-project-FS\ts-app\src\components\features\dashboard\player-overview.tsx
+  2:10  warning  'Badge' is defined but never used    @typescript-eslint/no-unused-vars
+  5:41  warning  'Percent' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\AntoniKmuk\Desktop\Klasa 3\FullStack\ts-project-FS\ts-app\src\components\features\team-builder\player-slot.tsx
+  4:10  warning  'Badge' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\AntoniKmuk\Desktop\Klasa 3\FullStack\ts-project-FS\ts-app\src\lib\mock-data.ts
+  1:18  warning  'ROLES' is defined but never used  @typescript-eslint/no-unused-vars
+
+✖ 21 problems (2 errors, 19 warnings)
+
