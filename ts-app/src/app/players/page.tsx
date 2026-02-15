@@ -33,9 +33,22 @@ export default function PlayersPage() {
 
   useEffect(() => {
     fetch("/api/players")
-      .then((res) => res.json())
-      .then(setPlayers)
-      .catch(console.error)
+      .then(async (res) => {
+        if (!res.ok) throw new Error("Failed to fetch players");
+        return res.json();
+      })
+      .then((data) => {
+        if (Array.isArray(data)) {
+          setPlayers(data);
+        } else {
+          console.error("API returned non-array data:", data);
+          setPlayers([]);
+        }
+      })
+      .catch((err) => {
+        console.error("Error fetching players:", err);
+        setPlayers([]); // Ensure it's always an array
+      })
       .finally(() => setLoading(false));
   }, []);
 
