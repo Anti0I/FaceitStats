@@ -32,7 +32,7 @@ export function RoleEfficiency() {
                 fill="var(--primary)" 
                 radius={[0, 4, 4, 0]} 
                 barSize={32}
-                background={{ fill: 'var(--secondary)', radius: [0, 4, 4, 0] }}
+                background={{ fill: 'var(--secondary)' }}
               />
             </BarChart>
           </ResponsiveContainer>
