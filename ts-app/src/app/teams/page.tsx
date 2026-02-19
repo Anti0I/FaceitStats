@@ -80,10 +80,10 @@ export default function TeamsPage() {
                   <Badge
                     className={`text-sm ${
                       team.synergy >= 80
-                        ? "bg-green-500/20 text-green-400 border-green-500/30"
+                        ? "bg-green-500/20 text-green-400 border-green-500/30 absolute top 4 right 10"
                         : team.synergy >= 50
-                        ? "bg-yellow-500/20 text-yellow-400 border-yellow-500/30"
-                        : "bg-red-500/20 text-red-400 border-red-500/30"
+                          ? "bg-yellow-500/20 text-yellow-400 border-yellow-500/30 "
+                          : "bg-red-500/20 text-red-400 border-red-500/30"
                     }`}
                     variant="outline"
                   >

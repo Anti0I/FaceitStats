@@ -11,23 +11,18 @@ export default function DashboardPage() {
         <h2 className="text-3xl font-bold tracking-tight">Dashboard</h2>
       </div>
       
-      {/* Player Stats Overview */}
       <PlayerOverview player={MOCK_PLAYER} />
 
-      {/* Main Content Grid */}
       <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-7">
         
-        {/* Chart Section - spans 4 columns on large screens */}
         <div className="col-span-4">
             <EloChart />
         </div>
 
-        {/* Role Efficiency - spans 3 columns */}
         <div className="col-span-3">
             <RoleEfficiency />
         </div>
         
-        {/* Match History - Full width on bottom */}
         <div className="col-span-7">
             <MatchHistory />
         </div>

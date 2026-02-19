@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
 import { ArrowRight, Crosshair, Users, BarChart3, TrendingUp, Shield } from "lucide-react";
 import { motion } from "framer-motion";
 
