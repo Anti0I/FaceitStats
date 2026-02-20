@@ -6,7 +6,7 @@ import { MOCK_ELO_HISTORY } from "@/lib/mock-data";
 
 export function EloChart() {
   return (
-    <Card classN--ame="col-span-4">
+    <Card className="col-span-4">
       <CardHeader>
         <CardTitle>ELO Progression</CardTitle>
       </CardHeader>

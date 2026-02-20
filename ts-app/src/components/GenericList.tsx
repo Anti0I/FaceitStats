@@ -1,10 +1,4 @@
 "use client";
-
-// ============================================================
-// [TS6] Generic React Component
-// A reusable list component that accepts any type T
-// ============================================================
-
 import type { GenericListProps } from "@/lib/types";
 
 export function GenericList<T>({
